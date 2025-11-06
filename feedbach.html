@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="parent">
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="grades.html">Grades Table</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <h1><em>Feedback Form</em></h1>
+
+      <form action="/action.php" method="post">
+        <fieldset>
+          <legend>Enter Your Details</legend>
+
+          <label for="username">Enter your name:</label><br>
+          <input type="text" id="username" name="username" placeholder="username"><br><br>
+
+          <label for="email">Personal Gmail:</label><br>
+          <input type="email" id="email" name="email" placeholder="example@gmail.com"><br><br>
+
+          <label for="password">Correct Password:</label><br>
+          <input type="password" id="password" name="password" placeholder="password"><br><br>
+
+          <label for="contact">Contact Number:</label><br>
+          <input type="tel" id="contact" name="contact" placeholder="contact number"><br><br>
+
+          <label for="dob">Date of Birth:</label><br>
+          <input type="date" id="dob" name="dob"><br><br>
+
+          <p>Gender:</p>
+          <input type="radio" id="female" name="gender" value="Female">
+          <label for="female">Female</label><br>
+          <input type="radio" id="male" name="gender" value="Male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="other" name="gender" value="Other">
+          <label for="other">Other</label><br><br>
+
+          <label for="feedback">Write your feedback:</label><br>
+          <textarea id="feedback" name="feedback" rows="5" cols="50" placeholder="Enter your feedback here"></textarea><br><br>
+
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+
+    </div>
+  </div>
+
+  <footer>
+    <hr>
+    <center>
+      <p>&copy;2025 <em>Tanu Thakur</em> | All Rights Reserved</p>
+    </center>
+  </footer>
+
+</body>
+</html>
